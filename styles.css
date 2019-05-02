@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Permanent+Marker|Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+ /* font{
+   font-family: 'Dokdo', cursive;
+   font-family: 'Permanent Marker', cursive;
+   font-family: 'Sigmar One', cursive;
+ } */
+
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background-image: url('https://cdn3.movieweb.com/i/article/s0O52ZDWL0zuuwXzw5baYhEsaI375b/798:50/Second-Penguins-Of-Madagascar-Trailer.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position-y: 0px;
+   color: #fff;
+   font-family: 'Poiret One', cursive;
+}
+header{
+   text-align: center;
+}
+header h1{
+   display: inline-block;
+   font-size: 60px;
+   padding: 10px 20px;
+   padding-top: 30px;
+   border: 3px solid rgb(177, 70, 27);
+   border-top: none;
+   font-family: 'Dokdo', cursive;
+   text-transform: uppercase;
+   color: rgb(172, 62, 34);
+   text-shadow: 0px 0 30px #fff;
+   background: rgba(255, 255, 255, 0.692);
+}
+nav{
+   margin-top: 30px;
+   width: 100%;
+   background: rgba(255, 253, 253, 0.932);
+   transition: 1s ease-in;
+}
+nav a{
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:  none;
+   list-style-type: none;
+   display: inline-block;
+   padding: 8px 20px;
+   margin: 20px 0px;
+   font-size: 30px;
+   font-family: 'Permanent Marker', cursive;
+   color: rgb(177, 70, 27);
+   transition: 0.3s ease-in-out;
+}
+nav a:hover{
+   background: rgb(0, 0, 0);
+   border-radius: 30px;
+
+}
+.name{
+   font-family: 'Poiret One', cursive;
+   font-size: 30px;
+   width: 50%;
+   min-width: 500px;
+   max-width: 100%;
+   text-align: center;
+   color: rgb(172, 62, 34);
+   float: right;
+   margin-top: 30px;
+   background: rgba(255, 253, 253, 0.932);
+}
+main img{
+   border-radius: 30px;
+   max-width: 100%;
+  
+}
+main{
+   display: flex;
+   justify-content: center;
+   font-weight: 900;
+   letter-spacing: 2px;
+}
+main section{
+   width: 90vw;
+}
+main section p{
+   /* float: left; */
+   display: inline-block;
+   padding: 20px;
+   font-size: 30px;
+   background: rgba(0, 0, 0, 0.6);
+   margin-top: 30px;
+   width: 50%;
+   min-width: 500px;
+   max-width: 100%;
+   
+}
+
+#instructions, #rules{
+   padding: 30px;
+   float: right;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.6);
+}
